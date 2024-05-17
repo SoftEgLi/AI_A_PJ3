@@ -1,0 +1,8 @@
+dataset/
+.vscode/
+__pycache__/
+model/
+tempCodeRunnerFile.py
+temp.py
+report.md
+*.png
