@@ -4,8 +4,6 @@ import torch
 from model import CSRNet
 from torchvision import transforms
 from torch.autograd import Variable
-import sys
-utf8stdout = open(1, 'w', encoding='utf-8', closefd=False) # fd 1 is stdout
 
 test_path = "./dataset/test/rgb/"
 img_paths = [f"{test_path}{i}.jpg" for i in range(1, 1001)]
@@ -40,6 +38,4 @@ for i in range(len(img_paths)):
     output = model(img.unsqueeze(0))
     ans = output.detach().cpu().sum()
     ans = "{:.2f}".format(ans.item())
-    # print(type(f"{i+1},{ans}\n"))
-    # f.write(f"{i+1},{ans}\n")
-    print(f"{i+1},{ans}", file = utf8stdout)
+    print(f"{i+1},{ans}")
