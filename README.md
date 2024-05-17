@@ -1,5 +1,7 @@
 ## Project3: Drone Perspective Crowd Counting using Dual Optical Sensors
 
+比赛网址：https://www.heywhale.com/org/2024gaiic/workspace/image
+
 This repository contains the baseline code for the challenge titled "Drone Perspective Crowd Counting" from the GAIIChallenge hosted at [HeyWhale](https://www.heywhale.com/org/2024gaiic/competition/area/65f7b42e019d8282037f8924). The objective is to develop an algorithm that accurately counts the number of people from a drone's perspective using dual optical sensors (presumably RGB and thermal or depth cameras), addressing challenges such as varying densities, occlusions, and altitude-induced perspective changes.
 
 ### Repository Structure
